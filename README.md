@@ -20,3 +20,4 @@ new terminal: sudo npm install -g loadtest<br>
 run: loadtest -n 1000 -c 100 --rps 200 http://localhost:3000?number=20<br>
 update npm: add "package": "\*" then run $npm update --save<br>
 sudo npm install -g artillery<br>
+run: artillery quick --count 10 -n 20 http://localhost:3000?number=20<br>
